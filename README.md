@@ -1,3 +1,1 @@
-# LeetCode 
-
-SQL-50 
+#SQL-50 
