@@ -1,2 +1,3 @@
-# LEETCODE
-LEETCODE - SQL 50 
+# LeetCode 
+
+SQL-50 
