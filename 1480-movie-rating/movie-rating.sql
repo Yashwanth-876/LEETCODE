@@ -40,3 +40,17 @@ UNION ALL
 SELECT TITLE AS RESULTS FROM TOPMOVIE
 
 
+-- (SELECT Name AS results
+-- FROM MovieRating JOIN Users USING(user_id)
+-- GROUP BY Name
+-- ORDER BY COUNT(*) DESC, Name
+-- LIMIT 1)
+
+-- UNION ALL
+
+-- (SELECT title AS results
+-- FROM MovieRating JOIN Movies USING(movie_id)
+-- WHERE created_at BETWEEN '2020-02-01' AND '2020-02-29'
+-- GROUP BY title
+-- ORDER BY AVG(rating) DESC, title
+-- LIMIT 1);
